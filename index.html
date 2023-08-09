@@ -1,0 +1,47 @@
+<!-- Create a simple website using HTML, CSS JAVASCRIPT to convert temperature from celsius to farenheit and etc -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Temperature converter</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">
+      <h1>temperature converter</h1>
+      <span class="temp-icon">
+        <i class="fa-solid fa-temperature-three-quarters"></i>
+      </span>
+    </div>
+
+    <div id="celsius">
+      <input type="number" name="" placeholder="Celsius" />
+      <span class="icon"> &#8451 <!-- UTF code for celsius --></span>
+    </div>
+    <div id="farenheit">
+      <input type="number" name="" placeholder="Farenheit" />
+      <span class="icon"> &#8457 <!-- UTF code for celsius --></span>
+    </div>
+    <div id="kelvin">
+      <input type="number" name="" placeholder="Kelvin" />
+      <span class="icon"> &#8490 <!-- UTF code for celsius --></span>
+    </div>
+
+    <div class="button">
+      <button>All clear</button>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
